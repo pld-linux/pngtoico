@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		Applications/Graphics
 Source0:	ftp://ftp.kernel.org/pub/software/graphics/pngtoico/%{name}-%{version}.tar.bz2
+# Source0-md5:	995efd27a1011f30a9ff72aa148fdc66
 BuildRequires:	libpng-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
