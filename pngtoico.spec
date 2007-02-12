@@ -1,5 +1,5 @@
 Summary:	PNG to ICO converter
-Summary(pl):	Konwerter PNG do ICO
+Summary(pl.UTF-8):   Konwerter PNG do ICO
 Name:		pngtoico
 Version:	1.0.1
 Release:	1
@@ -14,9 +14,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 pngtoico is a small utility to convert a set of PNG images to
 Microsoft ICO format. Transparency is supported.
 
-%description -l pl
-pngtoico to ma³e narzêdzie do konwertowania zestawu obrazków PNG do
-formatu Microsoft ICO. Obs³uguje przezroczysto¶æ.
+%description -l pl.UTF-8
+pngtoico to maÅ‚e narzÄ™dzie do konwertowania zestawu obrazkÃ³w PNG do
+formatu Microsoft ICO. ObsÅ‚uguje przezroczystoÅ›Ä‡.
 
 %prep
 %setup -q
