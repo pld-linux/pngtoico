@@ -1,5 +1,5 @@
 Summary:	PNG to ICO converter
-Summary(pl.UTF-8):   Konwerter PNG do ICO
+Summary(pl.UTF-8):	Konwerter PNG do ICO
 Name:		pngtoico
 Version:	1.0.1
 Release:	1
