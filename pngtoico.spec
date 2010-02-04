@@ -2,7 +2,7 @@ Summary:	PNG to ICO converter
 Summary(pl.UTF-8):	Konwerter PNG do ICO
 Name:		pngtoico
 Version:	1.0.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Graphics
 Source0:	ftp://ftp.kernel.org/pub/software/graphics/pngtoico/%{name}-%{version}.tar.bz2
