@@ -1,0 +1,11 @@
+--- pngtoico-1.0.1/pngtoico.c.orig	2012-02-08 15:41:42.028575422 +0100
++++ pngtoico-1.0.1/pngtoico.c	2012-02-08 15:42:01.778663278 +0100
+@@ -188,7 +188,7 @@
+     goto perrexit;
+   }
+ 
+-  if ( setjmp(png_ptr->jmpbuf) ) {
++  if ( setjmp(png_jmpbuf(png_ptr)) ) {
+     fprintf(stderr, "%s: PNG format error\n", file);
+     goto errexit;
+   }
